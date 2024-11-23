@@ -345,17 +345,52 @@ footer {
 
 #about {
     padding: 75px 15px;
-    border-bottom: 1px solid #dcd9d9
+    background-color: #f4f7fb; /* Soft background color */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    margin-top: 50px; /* Space above the section */
+    border: 1px solid #e1e5ea;
+}
+
+#about .container {
+    max-width: 960px; /* Centering and limiting width */
+    margin: 0 auto; /* Center container */
+}
+
+#about .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #about h2 {
-    color: #374054
+    font-size: 32px;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    position: relative;
 }
 
+
 #about p {
-    color: #74808a;
-    margin: 0
+    font-size: 16px;
+    color: #7f8c8d;
+    line-height: 1.6;
+    text-align: justify;
+    margin: 0;
 }
+
+#about p br {
+    margin-bottom: 10px;
+}
+
+/* Add a hover effect on the "About Me" heading */
+#about h2:hover {
+    color: #3498db;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
 
 #experience {
     padding: 50px 15px;
