@@ -253,7 +253,7 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../images/lead-bg.jpg);
+    background: url(../images/lead-bg.png);
     background-size: cover;
     padding: 15px;
     overflow: hidden
@@ -399,8 +399,14 @@ footer {
 }
 
 #experience h2 {
-    color: #374054
+    color: #374054;
+    font-weight: bolder;
 }
+#experience h3 {
+    color: #374054;
+    font-weight: bolder;
+}
+
 
 #experience-timeline {
     margin: 30px auto 0 auto;
