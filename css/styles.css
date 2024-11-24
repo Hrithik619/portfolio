@@ -345,16 +345,21 @@ footer {
 
 #about {
     padding: 75px 15px;
-    background-color: #f4f7fb; /* Soft background color */
+    background-color: #f4f7fb;
+    /* Soft background color */
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
-    margin-top: 50px; /* Space above the section */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Soft shadow effect */
+    margin-top: 50px;
+    /* Space above the section */
     border: 1px solid #e1e5ea;
 }
 
 #about .container {
-    max-width: 960px; /* Centering and limiting width */
-    margin: 0 auto; /* Center container */
+    max-width: 960px;
+    /* Centering and limiting width */
+    margin: 0 auto;
+    /* Center container */
 }
 
 #about .row {
@@ -398,54 +403,60 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-  }
-  
-  /* Education Section */
-  #education {
+}
+
+/* Education Section */
+#education {
     background-color: #fff;
     padding: 50px 20px;
-  }
-  
-  .heading {
+}
+#education:hover {
+    color: #3498db;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.heading {
     text-align: center;
     font-size: 2em;
     margin-bottom: 20px;
-    font-weight: bold; /* Bold style for Education */
-  }
-  
-  .education-block {
+    font-weight: bold;
+    /* Bold style for Education */
+}
+
+.education-block {
     background: #f9f9f9;
     border: 1px solid #ddd;
     border-radius: 10px;
     margin-bottom: 20px;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .education-block h3 {
+}
+
+.education-block h3 {
     font-size: 1.5em;
     color: #333;
-  }
-  
-  .education-block .education-date {
+}
+
+.education-block .education-date {
     font-size: 1em;
     color: #666;
     margin-bottom: 10px;
     display: block;
-  }
-  
-  .education-block h4 {
+}
+
+.education-block h4 {
     font-size: 1.2em;
     color: #007BFF;
     margin-bottom: 10px;
-  }
-  
-  .education-block p {
+}
+
+.education-block p {
     font-size: 1em;
     color: #555;
     line-height: 1.6;
-  }
-  
+}
+
 
 #education {
     padding: 50px 15px 20px 15px;
@@ -495,60 +506,62 @@ body {
 .education-block ul {
     padding: 0 0 0 15px
 }
+
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-  }
-  
-  /* Education Section */
-  #education {
+}
+
+/* Education Section */
+#education {
     background-color: #fff;
     padding: 50px 20px;
-  }
-  
-  .heading {
+}
+
+.heading {
     text-align: center;
     font-size: 2em;
     margin-bottom: 20px;
-    font-weight: bold; /* Bold style for Education */
-  }
-  
-  .education-block {
+    font-weight: bold;
+    /* Bold style for Education */
+}
+
+.education-block {
     background: #f9f9f9;
     border: 1px solid #ddd;
     border-radius: 10px;
     margin-bottom: 20px;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .education-block h3 {
+}
+
+.education-block h3 {
     font-size: 1.5em;
     color: #333;
-  }
-  
-  .education-block .education-date {
+}
+
+.education-block .education-date {
     font-size: 1em;
     color: #666;
     margin-bottom: 10px;
     display: block;
-  }
-  
-  .education-block h4 {
+}
+
+.education-block h4 {
     font-size: 1.2em;
     color: #007BFF;
     margin-bottom: 10px;
-  }
-  
-  .education-block p {
+}
+
+.education-block p {
     font-size: 1em;
     color: #555;
     line-height: 1.6;
-  }
-  
+}
+
 #projects {
     padding: 50px 15px;
     border-bottom: 1px solid #dcd9d9;
@@ -632,86 +645,83 @@ body {
     cursor: default;
     font-size: 1.2em
 }
-
+/* Contact Section Styling */
 #contact {
     padding: 50px 15px;
     background: #3498db;
-    text-align: center
+    text-align: center;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
 }
 
 #contact h2 {
-    margin: 0 0 15px 0;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
     color: #fff;
-    font-weight: 500
 }
 
-#contact-form {
-    max-width: 500px;
-    margin: 0 auto
+#contact p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #d1ecf3;
 }
 
-#contact-form input,
-#contact-form textarea {
-    display: block;
+/* Embed Form Styling */
+#contact iframe {
     width: 100%;
-    padding: 10px;
-    border-radius: 4px;
+    max-width: 700px;
+    height: 650px; /* Adjust height for form size */
+    margin: 20px auto;
     border: none;
-    margin-bottom: 10px;
-    background: #1d6fa5;
-    color: #fff;
-    transition: .5s ease all
-}
-
-#contact-form input::-webkit-input-placeholder,
-#contact-form textarea::-webkit-input-placeholder {
-    color: #fff
-}
-
-#contact-form input:-moz-placeholder,
-#contact-form textarea:-moz-placeholder {
-    color: #fff;
-    opacity: 1
-}
-
-#contact-form input::-moz-placeholder,
-#contact-form textarea::-moz-placeholder {
-    color: #fff;
-    opacity: 1
-}
-
-#contact-form input:-ms-input-placeholder,
-#contact-form textarea:-ms-input-placeholder {
-    color: #fff
-}
-
-#contact-form input:focus,
-#contact-form textarea:focus {
-    outline: none;
-    background: #16527a
-}
-
-#contact-form textarea {
-    height: 150px;
-    resize: none
-}
-
-#contact-form button {
-    display: block;
-    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
     background: #fff;
-    border-radius: 4px;
-    padding: 5px 10px;
-    border: none;
-    color: #3498db;
-    font-weight: 700;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    transition: .5s ease all
 }
 
-#contact-form button:hover {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)
+/* Add subtle hover effect around form */
+#contact iframe:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.01);
+    transition: all 0.3s ease-in-out;
 }
+
+/* General Button Styling (Optional) */
+button {
+    padding: 10px 20px;
+    background: #fff;
+    color: #3498db;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background: #2c81ba;
+    color: #fff;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    #contact {
+        padding: 30px 10px;
+    }
+
+    #contact h2 {
+        font-size: 2rem;
+    }
+
+    #contact iframe {
+        height: 600px;
+    }
+}
+
 
 .optional-section {
     padding: 50px 15px;
